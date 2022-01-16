@@ -1,0 +1,245 @@
+<html>
+<head>
+<title> properties css</title>
+<style>
+
+<!-- Background Color -->
+p,h1,pre
+{
+   background-color: #a0dc65;
+}   
+
+
+<!-- Backgroun Image -->
+h2
+{
+background-image:url("f1.jpg");
+width:800;
+height:300;
+color: white;
+}
+
+
+<!--img dotted border-->
+img
+{
+border-style:dotted;
+}
+
+
+<!--img style -->
+img
+{
+border-radius:100px;
+
+}
+
+
+<!-- image and paragraph left right -->
+img
+{
+  float:left;
+}
+
+
+<!--rgb from w3 school -->
+p
+{
+  color:rgb(255, 153, 0);
+}
+
+
+<!-- font family for textfont paower point-->
+h1
+{
+  font-family:Ravie;
+} 
+
+
+  <--! Font size largest and samall-->
+h1
+{
+font-size:x-large;
+font-size:x-small;
+font-size:50pxl;
+}
+
+<--! Font style -->
+h1
+{
+   font-style:italic;
+   font-size:30px
+}  
+h2
+{
+   font-style:oblique;
+   font-size:30px
+}  
+h3
+{
+   font-style:normal;
+   font-size:30px
+}  
+
+
+
+<!--Css Hover in size and color change-->
+a:hover
+{
+    font-size:30px;
+	color:red;
+}
+
+
+<!--Css impotant , notice newse-->
+h1
+{
+   !important;
+}
+
+
+<!-- Css Margin size to, bottom, left,right-->
+pre
+{
+border:solid 3px;
+margin-top:50px;
+margin-bottom:50px;
+margin-left:100px;
+margin-right:100px;
+}
+
+<!-- Css Padding border and space-->
+h4
+{
+border:solid 3px;
+padding-top:50px;
+padding-bottom:50px;
+padding-left:100px;
+padding-right:100px;
+}
+
+
+<!--Css Opacity image blur-->
+.abc
+{
+opacity:0.3;
+}
+
+<!-- Box Shadow -->
+.xyz
+{
+box-shadow:5px 10px 10px 10px yellow;
+}
+
+<!-- Text Shadow -->
+h1
+{
+text-shadow:3px 3px 3px red;
+}
+
+<!--icons crate -->
+w3 schools in site serche - css icon &select lind add notpad++ head
+
+
+<!--Navigation Bar-->
+<head>
+      <link rel="stylesheet" type="text/css" href="navigation.css">
+
+<title> Navigation Bar</title>
+</head>
+
+<body>
+   
+   <img src ="f1.jpg" height="500" width="500">
+   
+    <ul>
+   <li><a href="#">Home</a></li>
+    <li><a href="#">Java</a></li>
+	<li><a href="#">Html</a></li>
+	<li><a href="#">Css</a></li>
+   
+   </ul>
+   
+   
+</body>
+</html>
+
+
+
+<!--- navigation css-->
+
+
+ul
+{
+  list-style-type: none;
+}
+
+li
+{
+  float:right;
+  margin-top:50px;
+}
+
+li a
+{
+  padding:10px 20px;
+  text-decoration:none;
+  font-size:xx-large;
+}
+
+img
+{
+    float:left;
+}  
+
+
+
+
+
+
+</style>
+</head>
+
+
+<body>
+<h1> Css example</h1>
+<h1 id="abc"> Style for Heading</h1>
+<h2 id="abc"> Style for Heading</h2>
+<h4>Abhijit</h4>
+
+<img class="xyz" src="f1.jpg" height="300" width="300">
+<a href="#">Home</a> &nbsp&nbsp&nbsp
+<a href="#">About US</a>&nbsp&nbsp&nbsp
+<a href="#">Contact</a>&nbsp&nbsp&nbsp
+
+
+<p id="abc"> Cascading Style Sheet</p>
+<pre class="mno"> class selector </pre>
+
+
+
+<img class="abc" src="k.jpg" height="300" width="300">
+<img src="b2.jpg" height="300" width="300">
+
+
+<p>
+Republic Day is a national holiday in India, 
+when the country marks and celebrates the date on which the Constitution of India came into
+ effect on 26, January 1950, replacing the Government of India Act (1935) as the
+ governing document of India and thus, turning the nation into a newly formed republic.
+ [1] The day also marks the transition of India from an autonomous Commonwealth realm with British Monarch 
+ as nominal head of the Indian Dominion, to a fully sovereign Commonwealth republic with the
+ President of India as the nominal head of the Indian Union.
+</p>
+
+<pre>
+The Constitution was adopted by the Indian Constituent Assembly
+ on 26 November 1949 and came into effect on 26 January 1950 with a democratic government system, 
+ completing the country's transition towards becoming an independent republic.
+ 26 January was chosen as the date for Republic day because it was on this day in 1929 when the
+ Declaration of Indian Independence (Purna Swaraj) was proclaimed by the Indian National Congress 
+ in lieu of the Realm status as a Dominion later instated by the departing British Regime
+</pre>
+
+</body>
+</html>

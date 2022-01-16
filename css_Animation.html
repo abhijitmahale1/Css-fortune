@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title> CSS Animation</title>
+  <style>
+  
+  div
+    {
+	  width:150px;
+	  height:150px;
+	  background-image:url("f3.jpg");
+	  position:relative;
+	  animation:ani 5s;
+	} 
+	
+	
+	 #div1
+    {
+	  width:150px;
+	  
+	  height:150px
+	  
+	  background-image:url("f3.jpg");
+	  
+	  position:relative;
+	  
+	  animation:mayanimation 5s;
+	} 
+	
+	
+   @keyframes ani
+     {
+	    0%  {background-image:url("f3.jpg"); left:0px; top:0px;} 
+        25% {background-image:url("f1.jpg"); left:300px; top:0px;} 
+		50% {background-image:url("f2.jpg"); left:300px; top:200px;} 
+		75% {background-image:url("k.jpg"); left:0px; top:200px;}
+        100%{background-image:url("f3.jpg"); left:0px; top:0px;} 		
+    } 
+	
+	
+	 @keyframes mayanimation
+     {
+	    0%  {background-image:url("f3.jpg"); left:0px; top:200px;} 
+		
+        25% {background-image:url("f1.jpg"); left:300px; top:200px;} 
+		
+		50% {background-image:url("f2.jpg"); left:300px; top:400px;} 
+		
+		75% {background-image:url("k.jpg"); left:0px; top:400px;}
+		
+        100%{background-image:url("f3.jpg"); left:0px; top:200px;} 		
+    } 
+	
+	
+  </style>
+    
+	</head>
+	<body>
+	
+        	<div>
+			
+			</div>
+			
+			
+        	<div id ="div1">
+			
+			</div>
+			
+	</body>
+	</html>
+	
